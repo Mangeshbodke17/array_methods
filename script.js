@@ -13,7 +13,7 @@ function PrintDeveloperbyMap() {
 
   arr.map((element,i)=>{
      if(arr[i].profession=="developer"){
-      console.log(arr[i]);
+      console.log(element);
      }
   })
 
@@ -25,7 +25,7 @@ function PrintDeveloperbyForEach() {
    arr.forEach((element,i)=>{
 
      if(arr[i].profession=="developer"){
-      console.log(arr[i]);
+      console.log(element);
      }
 
   })
@@ -51,7 +51,7 @@ function removeAdmin() {
    arr.filter((element,i)=>{
 
  if(arr[i].profession=="developer"){
-      console.log(arr[i]);
+      console.log(element);
      }
  
 
